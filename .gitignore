@@ -1,0 +1,23 @@
+# Quartus intermediate files
+db/
+incremental_db/
+.qsys_edit/
+*.rpt
+*.summary
+*.done
+*.sopcinfo
+*.jdi
+*.pof
+*.sof
+*.jtag.rbf
+*.qws
+*.qdf
+*.qdb
+*.sld
+*.pin
+output_files/
+
+# System files
+.idea/
+*.bak
+*.log

@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_eda",
+		"comment" : "not_applicable",
+		"error_message" : "obuf_atom_info != NULL",
+		"source_file" : "/quartus/neto/wsc/wsc_hierarchy_info.cpp",
+		"line" : "3257",
+		"stack_trace" : "\t0x7ffdcae33cf0: NETO_WSC + 0x33cf0 (?connect_ports_to_iterms@WSC_HIERARCHY_INFO@@AEAAXXZ + 0x740)\n\t0x7ffdcae4bd11: NETO_WSC + 0x4bd11 (?build_hierarchy_wires_and_ports@WSC_HIERARCHY_BUILDER@@AEAAXXZ + 0x1f1)\n\t0x7ffdcae4ac9c: NETO_WSC + 0x4ac9c (?build@WSC_HIERARCHY_BUILDER@@QEAAXXZ + 0x22c)\n\t0x7ff721b54f28: quartus_eda + 0x14f28 (?build_hierarchy_netlist@QNETO_START@@AEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4WSC_NETLIST_TYPE@@_N222222@Z + 0x268)\n\t0x7ff721b5faa5: quartus_eda + 0x1faa5 (?generate_simulation_files@QNETO_START@@QEAAXW4QEDA_CALL_TYPE@@AEBVQEDAU_UTIL@@@Z + 0x595)\n\t0x7ff721b5754f: quartus_eda + 0x1754f (?generate_eda_files@QNETO_START@@QEAAXW4QEDA_CALL_TYPE@@AEBVQEDAU_UTIL@@@Z + 0x2f)\n\t0x7ff721b67e3d: quartus_eda + 0x27e3d (?generate_all_eda_files@@YA_NPEAVCMP_FACADE@@AEBVQEDAU_UTIL@@@Z + 0x5d)\n\t0x7ff721b68c2b: quartus_eda + 0x28c2b (?qneto_execute@@YA_NPEAVCMP_FACADE@@PEBD_N2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@332AEBVQEDAU_UTIL@@@Z + 0x18b)\n\t0x7ff721b49db8: quartus_eda + 0x9db8 (?execute@QNETO_FRAMEWORK@@UEAA_NXZ + 0x288)\n\t0x7ffe1e27150c: comp_qexe + 0x1150c (qexe_do_normal + 0x1ec)\n\t0x7ffe1e276622: comp_qexe + 0x16622 (qexe_run + 0x432)\n\t0x7ffe1e277371: comp_qexe + 0x17371 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff721b4fe9f: quartus_eda + 0xfe9f (?qneto_main@@YAHHPEAPEBD@Z + 0xaf)\n\t0x7ffe1b963258: CCL_MSG + 0x13258 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ffe1b964a5e: CCL_MSG + 0x14a5e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ffe1ba76af0: ccl_mem + 0x16af0 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ffe1b962af1: CCL_MSG + 0x12af1 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff721b6a746: quartus_eda + 0x2a746 (__tmainCRTStartup + 0x10e)\n\t0x7ffe396b257c: KERNEL32 + 0x1257c (BaseThreadInitThunk + 0x1c)\n\t0x7ffe3a1aaf07: ntdll + 0x5af07 (RtlUserThreadStart + 0x27)\n",
+		"subsystem" : "WSC"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "20.1.0",
+		"build" : "711",
+		"edition" : "Lite Edition"
+	}
+}
